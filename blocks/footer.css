@@ -60,8 +60,27 @@
   font-size: 16px;
   line-height: 20px;
   color: #fff;
-  padding-top: 108px;
-  padding-bottom: 60px;
-  padding-left: 80px;
+  padding: 108px 0 60px 80px;
   margin: 0px;
+}
+@media screen and (max-width: 600px) {
+  .footer__content {
+    flex-direction: column;
+    padding: 60px 0 0 80px;
+  }
+  .footer__social {
+    padding: 50px 0 0;
+  }
+}
+@media screen and (max-width: 500px) {
+  .footer__content,
+  .footer__copyright {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .footer__copyright {
+    font-size: 5vw;
+  }
 }

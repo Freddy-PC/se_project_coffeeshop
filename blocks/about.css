@@ -61,3 +61,26 @@
     opacity: 0;
   }
 }
+@media screen and (max-width: 1246px) {
+  .about {
+    flex-wrap: wrap;
+  }
+  .about__content {
+    padding: 0 80px 120px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .about__title,
+  .about__content {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .about__title {
+    font-size: 11vw;
+  }
+  .about__paragraph {
+    font-size: 6vw;
+  }
+}
