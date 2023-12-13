@@ -1,6 +1,6 @@
 .card {
   max-width: 600px;
-  flex-basis: 50%;
+  flex-basis: 100%;
   box-sizing: border-box;
 }
 
@@ -37,4 +37,9 @@
 .card__list-divider {
   flex-grow: 1;
   border-bottom: 1px solid #fff;
+}
+@media screen and (max-width: 500px) {
+  .card__list-item {
+    font-size: 3vw;
+  }
 }

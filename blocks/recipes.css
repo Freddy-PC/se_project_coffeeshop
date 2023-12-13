@@ -34,8 +34,11 @@
   justify-content: center;
   gap: 40px;
   margin: auto;
+  flex-wrap: wrap;
+  padding: 0 80px;
 }
 .recipes__iframe {
+  max-width: 100%;
   width: 480px;
   height: 273px;
   border-style: none;
@@ -52,4 +55,16 @@
 }
 .recipes__video-caption {
   padding-top: 24px;
+}
+
+@media screen and (max-width: 600px) {
+  .recipes__iframe {
+    height: calc(50vw); /* Depends on viewport width */
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .recipes__videos {
+    padding: 0 40px;
+  }
 }
