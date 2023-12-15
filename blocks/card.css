@@ -40,6 +40,6 @@
 }
 @media screen and (max-width: 500px) {
   .card__list-item {
-    font-size: 3vw;
+    font-size: 3.6vw;
   }
 }
