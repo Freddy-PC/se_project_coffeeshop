@@ -5,3 +5,9 @@
   top: 30px;
   left: 30px;
 }
+@media screen and (max-width: 400px) {
+  .logo {
+    max-width: 75px;
+    max-height: 75px;
+  }
+}
