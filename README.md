@@ -10,7 +10,7 @@
 
 This is the second project of the Software Engineer program at TripleTen by Yandex, formally known as Practicum.
 
-I demonstrate different ways to position elements on the webpage in multiple sections. Additionally, after a few more Sprints, I learned how to adjust the webpage to fit different screen sizes.
+I demonstrate different ways to position elements on the webpage in multiple sections. Additionally, after a few more Sprints, I learned how to adjust the webpage to fit different screen sizes, which I demonstate here as well.
 
 ## How to access the Application
 
@@ -38,6 +38,7 @@ This website is made using HTML and CSS, and the design was based on a Figma tem
 - Flexbox
 - Positioning
 - Flat BEM
+- Metadata for SEO
 - A custom form
 - CSS animation and transform
 - Media queries
